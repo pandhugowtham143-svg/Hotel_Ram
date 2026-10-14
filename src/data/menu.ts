@@ -30,7 +30,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/4331489/pexels-photo-4331489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 50,
+    price: 60,
     isPopular: false,
   },
   {
@@ -41,7 +41,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/1080314/pexels-photo-1080314.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 50,
+    price: 60,
   },
   {
     id: 'plain-dosa',
@@ -51,7 +51,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/20422133/pexels-photo-20422133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 40,
+    price: 50,
   },
   {
     id: 'masala-dosa',
@@ -61,7 +61,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/20422138/pexels-photo-20422138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 60,
+    price: 70,
     isPopular: true,
   },
   {
@@ -72,7 +72,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/20422129/pexels-photo-20422129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 50,
+    price: 60,
   },
   {
     id: 'egg-dosa',
@@ -82,10 +82,10 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/20422126/pexels-photo-20422126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 50,
+    price: 60,
     options: [
-      { label: 'Single Egg', price: 50 },
-      { label: 'Double Egg', price: 60 },
+      { label: 'Single Egg', price: 60 },
+      { label: 'Double Egg', price: 70 },
     ],
   },
   {
@@ -96,7 +96,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/20422131/pexels-photo-20422131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 50,
+    price: 60,
   },
   {
     id: 'omelette',
@@ -106,7 +106,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/12944792/pexels-photo-12944792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 20,
+    price: 25,
   },
   {
     id: 'half-boiled-egg',
@@ -116,7 +116,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/28573374/pexels-photo-28573374.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Egg',
-    price: 15,
+    price: 20,
   },
   {
     id: 'veg-pulao',
@@ -126,7 +126,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/35041654/pexels-photo-35041654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 50,
+    price: 60,
   },
   {
     id: 'lemon-rice',
@@ -136,7 +136,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/35267286/pexels-photo-35267286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 50,
+    price: 60,
   },
   {
     id: 'vada',
@@ -146,7 +146,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/20422135/pexels-photo-20422135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Piece',
-    price: 10,
+    price: 20,
   },
 
   // LUNCH
@@ -158,7 +158,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/39536492/pexels-photo-39536492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 110,
+    price: 120,
     isSpecial: true,
     isPopular: true,
   },
@@ -170,10 +170,10 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/7301037/pexels-photo-7301037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Portion',
-    price: 50,
+    price: 60,
     options: [
-      { label: 'Half Portion', price: 50 },
-      { label: 'Full Portion', price: 100 },
+      { label: 'Half Portion', price: 60 },
+      { label: 'Full Portion', price: 110 },
     ],
   },
   {
@@ -184,7 +184,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/38400477/pexels-photo-38400477.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 120,
+    price: 140,
   },
   {
     id: 'south-indian-meals',
@@ -194,7 +194,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/20422123/pexels-photo-20422123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 60,
+    price: 70,
   },
   {
     id: 'chapati',
@@ -204,7 +204,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/35189865/pexels-photo-35189865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Serving',
-    price: 50,
+    price: 60,
   },
 
   // DINNER
@@ -216,7 +216,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/24206106/pexels-photo-24206106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 100,
+    price: 110,
     isPopular: true,
   },
   {
@@ -227,10 +227,10 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/28503589/pexels-photo-28503589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 60,
+    price: 70,
     options: [
-      { label: 'Single Egg', price: 60 },
-      { label: 'Double Egg', price: 70 },
+      { label: 'Single Egg', price: 70 },
+      { label: 'Double Egg', price: 80 },
     ],
   },
   {
@@ -241,10 +241,10 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/7301037/pexels-photo-7301037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Portion',
-    price: 50,
+    price: 60,
     options: [
-      { label: 'Half Portion', price: 50 },
-      { label: 'Full Portion', price: 100 },
+      { label: 'Half Portion', price: 60 },
+      { label: 'Full Portion', price: 110 },
     ],
   },
   {
@@ -255,10 +255,10 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/35532821/pexels-photo-35532821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Portion',
-    price: 60,
+    price: 70,
     options: [
-      { label: 'Half Portion', price: 60 },
-      { label: 'Full Portion', price: 120 },
+      { label: 'Half Portion', price: 70 },
+      { label: 'Full Portion', price: 130 },
     ],
     isPopular: true,
   },
@@ -270,7 +270,7 @@ export const menuItems: MenuItem[] = [
     diet: 'veg',
     image: 'https://images.pexels.com/photos/9609857/pexels-photo-9609857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '2 Pieces',
-    price: 40,
+    price: 50,
   },
   {
     id: 'chicken-kothu-parotta',
@@ -280,7 +280,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/9609840/pexels-photo-9609840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 140,
+    price: 150,
     isSpecial: true,
     isPopular: true,
   },
@@ -292,7 +292,7 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/39833413/pexels-photo-39833413.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Plate',
-    price: 90,
+    price: 100,
     isPopular: true,
   },
   {
@@ -303,10 +303,10 @@ export const menuItems: MenuItem[] = [
     diet: 'non-veg',
     image: 'https://images.pexels.com/photos/6113813/pexels-photo-6113813.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     quantity: '1 Portion',
-    price: 60,
+    price: 70,
     options: [
-      { label: 'Half Portion', price: 60 },
-      { label: 'Full Portion', price: 120 },
+      { label: 'Half Portion', price: 70 },
+      { label: 'Full Portion', price: 130 },
     ],
   },
 ];
